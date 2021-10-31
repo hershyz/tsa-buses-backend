@@ -26,10 +26,10 @@
 <h4>Endpoints:</h4>
 <pre>
 https://us-central1-tsa-buses.cloudfunctions.net/testGet
-- HTTPS GET request diagnostic endpoint
-- args: none
+-- HTTPS GET request diagnostic endpoint
+-- args: none
 
 https://us-central1-tsa-buses.cloudfunctions.net/testPost
-- HTTPS POST request diagnostic endpoint
-- args: [name: (string)]
+-- HTTPS POST request diagnostic endpoint
+-- args: [name: (string)]
 </pre>
