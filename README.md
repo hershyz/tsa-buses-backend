@@ -4,7 +4,10 @@
     This repository contains the Node.js + Firebase API source for the 2021-2022 TSA Software Development project.
 </p>
 
-<br>
+<ul>
+    <a href="https://github.com/hershyz/tsa-buses-backend/tree/main/firebase-functions">Cloud Functions</a>
+    <a href="https://github.com/hershyz/tsa-buses-backend/tree/main/endpoint-tests">Endpoint Tests</a>
+</ul>
 
 <h4>Firebase CLI tools setup</h4>
 <pre>
