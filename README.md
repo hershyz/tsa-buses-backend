@@ -5,8 +5,8 @@
 </p>
 
 <ul>
-    <a href="https://github.com/hershyz/tsa-buses-backend/tree/main/firebase-functions">Cloud Functions</a>
-    <a href="https://github.com/hershyz/tsa-buses-backend/tree/main/endpoint-tests">Endpoint Tests</a>
+    <li><a href="https://github.com/hershyz/tsa-buses-backend/tree/main/firebase-functions">Cloud Functions</a></li>
+    <li><a href="https://github.com/hershyz/tsa-buses-backend/tree/main/endpoint-tests">Endpoint Tests</a></li>
 </ul>
 
 <h4>Firebase CLI tools setup</h4>
