@@ -3,3 +3,5 @@
 <p>
     This repository contains the Node.js + Firebase API source for the 2021-2022 TSA Software Development project.
 </p>
+
+<h3>Getting Started</h3>
