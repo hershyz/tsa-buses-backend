@@ -1,9 +1,13 @@
 const functions = require("firebase-functions");
 
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//   functions.logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+
+// test get request
+exports.testGet = functions.https.onRequest((request, response) => {
+  response.send("api is up");
+});
+
+
+// test post request
+exports.testPost = functions.https.onRequest((request, response) => {
+  response.send("hello: " + request.query.name);
+});
