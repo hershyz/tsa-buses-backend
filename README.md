@@ -4,6 +4,8 @@
     This repository contains the Node.js + Firebase API source for the 2021-2022 TSA Software Development project.
 </p>
 
+<br>
+
 <h4>Firebase CLI tools setup</h4>
 <pre>
     > npm install -g firebase-tools
