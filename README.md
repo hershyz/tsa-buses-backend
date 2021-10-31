@@ -6,8 +6,11 @@
 
 <h4>Setup</h4>
 <pre>
-    Clone the repository, install Node dependencies, and deploy cloud functions to Firebase
+    <strong>Firebase CLI tools setup:</strong>
+    > npm install -g firebase-tools
+    > firebase login
 
+    <strong>Clone the repository, install Node dependencies, and deploy cloud functions to Firebase:</strong>
     > git clone https://github.com/hershyz/tsa-buses-backend.git
     > cd tsa-buses-backend/firebase-functions
     > npm install
