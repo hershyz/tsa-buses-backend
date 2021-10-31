@@ -9,7 +9,7 @@
     <li><a href="https://github.com/hershyz/tsa-buses-backend/tree/main/endpoint-tests">Endpoint Tests</a></li>
 </ul>
 
-<h4>Firebase CLI tools setup</h4>
+<h4>Firebase CLI tools setup:</h4>
 <pre>
     > npm install -g firebase-tools
     > firebase login
@@ -21,4 +21,15 @@
     > cd tsa-buses-backend/firebase-functions
     > npm install
     > firebase deploy --only functions
+</pre>
+
+<h4>Endpoints:</h4>
+<pre>
+https://us-central1-tsa-buses.cloudfunctions.net/testGet
+- HTTPS GET request diagnostic endpoint
+- args: none
+
+https://us-central1-tsa-buses.cloudfunctions.net/testPost
+- HTTPS POST request diagnostic endpoint
+- args: [name: (string)]
 </pre>
